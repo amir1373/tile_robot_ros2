@@ -1,0 +1,4 @@
+string move_name
+---
+int32 size
+int32 thickness

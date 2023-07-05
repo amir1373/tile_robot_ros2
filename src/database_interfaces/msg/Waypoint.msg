@@ -1,0 +1,13 @@
+int32 id
+float64 x_position
+float64 y_position
+float64 z_position
+float64 x_orientation
+float64 y_orientation
+float64 z_orientation
+float64 w_orientation
+int32 rail_displacement
+int32 rail_time
+int32 rail_speed
+bool rail_direction
+int32 displacement_time_to_next_waypoint
