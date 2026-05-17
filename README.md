@@ -1,8 +1,8 @@
-# Tile Robot ROS2
+# Tile Robot ROS 2
 
 ROS 2 workspace/repository for tile robot experiments.
 
-## Contents
+## What This Repository Contains
 
 - `src/` - ROS 2 package source tree.
 
@@ -15,6 +15,10 @@ colcon build
 source install/setup.bash
 ```
 
-## Notes
+## Development Notes
 
-The exact ROS 2 distribution, package dependencies, topics, and launch files should be documented as the project is cleaned up. Verify hardware interfaces and robot safety limits before running nodes on a physical robot.
+Document the ROS 2 distribution, package names, dependencies, topics, services, and launch files as the project is cleaned up.
+
+## Safety
+
+Verify hardware interfaces, command limits, and emergency-stop behavior before running nodes on a physical robot.
